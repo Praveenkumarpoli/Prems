@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   @keyframes img{
+    10%   {
+            background-image:url(./pc1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    15%  {
+            background-image: url(./pic0.jpeg);
+             background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    50%  {  
+            background-image: url(./pic3.webp);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    100% {
+            background-image: url(./pic4.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+}
+    body{
+    background-image: url(./pic7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+   div {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  animation-name: img;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  border-radius: 15px;
+  animation-direction: alternate;
+  margin: 10%;
+}
+#kk{
+    border-radius: 50%;
+    border-bottom-right-radius:15px ;
+}
+div img{
+    transition: 300px;
+    background-color: green;
+}
+ 
+@media screen and ((min-width:600px) {
+            .container{
+                width: 20%;
+            }
+        }
+</style>
+<body>
+    <div>
+   <a href="./one.html"> <img src="./pic5.jpeg" alt="" width="150px" height="150px" id="kk"></a>
+    </div>
+</body>
+</html>
